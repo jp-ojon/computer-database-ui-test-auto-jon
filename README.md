@@ -10,6 +10,7 @@ Jon Paulo Ojon
 * Playwright
 * csv-parser
 * dotenv
+* pdfkit
 
 ## Installation
 1. Clone the repository and go to project directory
@@ -22,6 +23,7 @@ Jon Paulo Ojon
 * Libraries used
 * csv-parser       : csv reader and parser library used to read testdata from .csv files
 * dotenv           : for reading thru .env file environment variables
+* pdfkit           : for the reporting that creates a pdf file
 
 ## Test Cases
 - US-01: As an inventory manager, I want to add a computer to the system, including its introduction and discontinuation dates, so I can track product lifecycles identify outdated equipment, and make informed decisions about purchasing, upgrades, and support
@@ -29,6 +31,8 @@ Jon Paulo Ojon
 - US-02: As an inventory manager, I want to filter computers by their names. To search by name, I want the ability to enter at least two letters in the search field. This will allow me to easily track similar or exact product lines
 
 - US-03: As an inventory manager, I want to edit the details of a specific computer in the system. I should be able to select a computer by name from a list or search bar. Once selected, I want to be able to update Computer name, Introduced, Discontinued, and the Company from a prefilled list
+
+- Sample Test with Bug Report (to show capability of creating bug reports and screenshots)
 
 ## Test Data
 - Please update the testdata.csv file under testdata folder accordingly. 
@@ -47,7 +51,8 @@ sample testdata.csv contents
 | filter    | Nintendo        |                          |             |              |                                     |
 | edit      | super computer 4| IBM AP-101               | 2024-01-01  | 2024-08-01   | Evans & Sutherland                  |
 
-## Test Data Notes
+## Notes
+- Bug reports and screenshots can be found under utilities -> reports/screenshots
 - introduced and discontinued should follow format "YYYY-MM-DD". Discontinued date should always be greater than the Introduced date.
 - company is case sensitive and should be the same exact as the available options
 - for operation edit, the computertoedit should be the same exact value of any specific and existing computer

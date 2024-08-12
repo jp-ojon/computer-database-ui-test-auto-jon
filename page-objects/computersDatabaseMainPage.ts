@@ -2,6 +2,7 @@ import { Locator, Page } from "@playwright/test"
 
 export class ComputersDatabaseMainPage {
     page: Page
+    readonly computerDatabaseHeader: Locator
     readonly addNewComputerButton: Locator
     readonly filterSearchFieldBox: Locator
     readonly filterByNameButton: Locator
@@ -12,6 +13,7 @@ export class ComputersDatabaseMainPage {
 
     constructor(page: Page) {
         this.page = page
+        this.computerDatabaseHeader = this.page.locator('//header[@class="topbar"]//a')
         this.addNewComputerButton = this.page.locator('a#add')
         this.filterSearchFieldBox = this.page.locator('input#searchbox')
         this.filterByNameButton = this.page.locator('input#searchsubmit')

@@ -37,14 +37,14 @@ Jon Paulo Ojon
 2. filter
 3. edit
 
-sample testdata.csv contents
-operation,computername,computertoedit,introduced,discontinued,company
-add,super computer 1,,2024-01-01,2024-08-01,Apple Inc.
-filter,Sony,,,,
-edit,super computer 1,IBM AP-101,2024-01-01,2024-08-01,Micro Instrumentation and Telemetry Systems
-add,super computer 3,,2024-01-01,2024-08-01,E.S.R. Inc.
-filter,Nintendo,,,,
-edit,super computer 4,IBM AP-101,2024-01-01,2024-08-01,Evans & Sutherland
+| operation | computername    | computertoedit          | introduced | discontinued | company                             |
+|-----------|-----------------|--------------------------|-------------|--------------|-------------------------------------|
+| add       | super computer 1|                          | 2024-01-01  | 2024-08-01   | Apple Inc.                          |
+| filter    | Sony            |                          |             |              |                                     |
+| edit      | super computer 1| IBM AP-101               | 2024-01-01  | 2024-08-01   | Micro Instrumentation and Telemetry Systems |
+| add       | super computer 3|                          | 2024-01-01  | 2024-08-01   | E.S.R. Inc.                         |
+| filter    | Nintendo        |                          |             |              |                                     |
+| edit      | super computer 4| IBM AP-101               | 2024-01-01  | 2024-08-01   | Evans & Sutherland                  |
 
 ## Test Data Notes
 - introduced and discontinued should follow format "YYYY-MM-DD". Discontinued date should always be greater than the Introduced date.

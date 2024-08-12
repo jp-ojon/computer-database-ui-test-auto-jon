@@ -1,6 +1,6 @@
 # Playwright Test Suite for Computer Database Gatling UI Automation Test exercise by Jon Paulo Ojon
 ## Overview
-This test suite includes automated tests for navigating adding a computer, filtering by computer name, and editing details of a specific and existing computer
+This test suite includes automated tests for adding a computer, filtering by computer name, and editing details of a specific and existing computer
 
 ## Author
 Jon Paulo Ojon

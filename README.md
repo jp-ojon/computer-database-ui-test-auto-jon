@@ -37,6 +37,7 @@ Jon Paulo Ojon
 2. filter
 3. edit
 
+sample testdata.csv contents
 | operation | computername    | computertoedit          | introduced | discontinued | company                             |
 |-----------|-----------------|--------------------------|-------------|--------------|-------------------------------------|
 | add       | super computer 1|                          | 2024-01-01  | 2024-08-01   | Apple Inc.                          |

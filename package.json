@@ -2,7 +2,12 @@
   "name": "computer-database-ui-test-auto-jon",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test:chromium": "npx playwright test --project=chromium",
+    "test:firefox": "npx playwright test --project=firefox",
+    "test:webkit": "npx playwright test --project=webkit",
+    "test:all": "npx playwright test"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
